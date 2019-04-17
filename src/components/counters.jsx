@@ -35,9 +35,7 @@ class Counters extends Component {
           <Counter
             key={counter.id}
             onDelete={this.handleDelete}
-            value={counter.value}
-            selected={true}
-            id={counter.id}
+            counter={counter}
           />
         ))}
       </div>
